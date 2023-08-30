@@ -1,17 +1,8 @@
-# using python m  pip install 
--U torch
--U torchvision
--U scikit-learn
--U gpytorch
--U skorch
--U scikit-activeml
-lightning
-pyro-ppl
+torch
+torchvision
+scikit-learn
+skorch
+scikit-activeml
 seaborn
 scipy
 joblib
-visdom
-sklearn-evaluation
---upgrade git+https://github.com/cornellius-gp/linear_operator.git
---upgrade git+https://github.com/cornellius-gp/gpytorch.git
-plotly.express
