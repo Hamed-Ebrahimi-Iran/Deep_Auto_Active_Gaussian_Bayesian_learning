@@ -10,7 +10,7 @@ parser.add_argument('--gt', default='list/gt-ucf.npy', help='file of ground trut
 parser.add_argument('--gpus', default=1, type=int, choices=[0, 1], help='gpus')
 parser.add_argument('--lr', type=float, default=0.00005, help='learning rate (default: 0.0001)')
 parser.add_argument('--batch-size', type=int, default=32, help='number of instances in a batch of data (default: 16)')
-parser.add_argument('--workers', default=1, help='number of workers in dataloader')
+parser.add_argument('--workers', default=2, help='number of workers in dataloader')
 parser.add_argument('--model-name', default='deepmil', help='name to save model')
 parser.add_argument('--pretrained-ckpt', default=None, help='ckpt for pretrained model')
 
